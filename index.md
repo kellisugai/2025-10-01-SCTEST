@@ -4,8 +4,8 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "UC San Diego"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Room X, Geisel Library, 9701 Hopkins Drive, La Jolla, CA"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+address: "Room X, Geisel Library, 9701 Hopkins Drive, La Jolla, CA"  # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), # videoconferencing URL, or 'online'
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the # workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "32.883420"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: -117.238572"       # decimal longitude of the workshop venue (use https://www.latlong.net)
@@ -15,10 +15,11 @@ startdate: 2025-10-01      # machine-readable start date for the workshop in YYY
 enddate: 2025-10-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Kelli Sugai", "instructor two"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["ksugai@ucsd.edu","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://codimd.carpentries.org/](https://pad.carpentries.org/community-sessions-2025) # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+email: ["ksugai@ucsd.edu","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling # questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://codimd.carpentries.org/](https://pad.carpentries.org/community-sessions-2025) # optional: URL for the workshop collaborative notes,
+# e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-what3words:   "await.cafe.covers"        # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
+what3words:   "await.cafe.covers"        # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes #e.g."globe.lessening.computers"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
